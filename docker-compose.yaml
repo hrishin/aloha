@@ -1,0 +1,9 @@
+version: "2"
+
+services:
+  aloha-vertx-serivce:
+    image: aloha-vertx:latest
+    labels:
+     - "aloha-vertx"
+    ports:
+      - "8080:8080"
